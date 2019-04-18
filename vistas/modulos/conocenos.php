@@ -1,111 +1,221 @@
-<!--=== Breadcrumbs ===-->
-<div class="breadcrumbs breadcrumbs-dark">
-    <div class="container">
-        <h1 class="pull-left">About Us</h1>
-        <ul class="pull-right breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Pages</a></li>
-            <li class="active">About Us</li>
-        </ul>
+<!-- Promo Block -->
+<section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall " data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
+    <!-- Parallax Image -->
+    <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-black-opacity-0_3--after" style="height: 140%; background-image: url(../../assets/img-temp/1920x800/img3.jpg);"></div>
+    <!-- End Parallax Image -->
+    <!-- Promo Block Content -->
+    <div class="container g-color-white text-center g-py-120">
+        <h3 class="h1 g-font-weight-600 text-uppercase mb-2">About us</h3>
+        <p class="g-font-weight-300 g-font-size-22 text-uppercase">Unify is a clean and fully responsive theme</p>
     </div>
-    <!--/container-->
-</div>
-<!--/breadcrumbs-->
-<!--=== End Breadcrumbs ===-->
+    <!-- Promo Block Content -->
+</section>
+<!-- End Promo Block -->
 
-<!-- Google Map -->
-<div id="map" class="map">
-</div>
-<!---/map-->
-<!-- End Google Map -->
-
-<!--=== Content Part ===-->
-<div class="container content">
-    <div class="row margin-bottom-30">
-        <div class="col-md-9 mb-margin-bottom-30">
-            <div class="headline">
-                <h2>Contact Form</h2>
+<section class="container g-pt-100 g-pb-50">
+    <div class="row justify-content-center g-mb-60">
+        <div class="col-lg-8">
+            <!-- Heading -->
+            <div class="text-center">
+                <h2 class="h3 g-color-black text-uppercase mb-2">Quienes Somos</h2>
+                <div class="d-inline-block g-width-35 g-height-2 g-bg-primary mb-2"></div>
+                <p class="mb-0">
+                    Sumando Mas es un Parnert tecnológico especialista en revolucionar entornos de trabajo 
+                    ayudando a mejorar las ventajas competitivas de las personas, procesos y operaciones.
+                </p>
             </div>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur
-                adipiscing elit landitiis.</p><br />
-
-            <form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
-                <fieldset class="no-padding">
-                    <label>Name <span class="color-red">*</span></label>
-                    <div class="row sky-space-20">
-                        <div class="col-md-7 col-md-offset-0">
-                            <div>
-                                <input type="text" name="name" id="name" class="form-control">
-                            </div>
-                        </div>
+            <!-- End Heading -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 g-mb-50">
+            <img class="img-fluid" src="../../assets/img-temp/600x330/img1.png" alt="Image Description">
+        </div>
+        <div class="col-lg-6">
+            <div class="mb-5">
+                <p class="g-mb-30">
+                    Brindamos acompañamiento a las compañias en el proceso de digitalización y automatización que ayude a posicionarse
+                    tecnológicamente de cara a su entorno
+                </p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled g-font-size-13 mb-0">
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Estrategia Digital 
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Comercio Electrónico
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Marketing Digital 
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Digitalización de Procesos 
+                            </li>
+                        </ul>
                     </div>
-
-                    <label>Email <span class="color-red">*</span></label>
-                    <div class="row sky-space-20">
-                        <div class="col-md-7 col-md-offset-0">
-                            <div>
-                                <input type="text" name="email" id="email" class="form-control">
-                            </div>
-                        </div>
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled g-font-size-13 mb-0">
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Ciberseguridad 
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Infraestructura 
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Analítica de Negocio 
+                            </li>
+                            <li class="d-flex mb-3">
+                                <i class="g-color-primary g-mt-5 g-mr-10 icon-check"></i>
+                                Talento Digital 
+                            </li>
+                        </ul>
                     </div>
-
-                    <label>Message <span class="color-red">*</span></label>
-                    <div class="row sky-space-20">
-                        <div class="col-md-11 col-md-offset-0">
-                            <div>
-                                <textarea rows="8" name="message" id="message" class="form-control"></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p><button type="submit" class="btn-u">Send Message</button></p>
-                </fieldset>
-
-                <div class="message">
-                    <i class="rounded-x fa fa-check"></i>
-                    <p>Your message was successfully sent!</p>
                 </div>
-            </form>
+            </div>
         </div>
-        <!--/col-md-9-->
-
-        <div class="col-md-3">
-            <!-- Contacts -->
-            <div class="headline">
-                <h2>Contacts</h2>
-            </div>
-            <ul class="list-unstyled who margin-bottom-30">
-                <li><a href="#"><i class="fa fa-home"></i>5B Streat, City 50987 New Town US</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i>info@example.com</a></li>
-                <li><a href="#"><i class="fa fa-phone"></i>1(222) 5x86 x97x</a></li>
-                <li><a href="#"><i class="fa fa-globe"></i>http://www.example.com</a></li>
-            </ul>
-
-            <!-- Business Hours -->
-            <div class="headline">
-                <h2>Business Hours</h2>
-            </div>
-            <ul class="list-unstyled margin-bottom-30">
-                <li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-                <li><strong>Saturday:</strong> 11am to 3pm</li>
-                <li><strong>Sunday:</strong> Closed</li>
-            </ul>
-
-            <!-- Why we are? -->
-            <div class="headline">
-                <h2>Why we are?</h2>
-            </div>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-            <ul class="list-unstyled">
-                <li><i class="fa fa-check color-green"></i> Odio dignissimos ducimus</li>
-                <li><i class="fa fa-check color-green"></i> Blanditiis praesentium volup</li>
-                <li><i class="fa fa-check color-green"></i> Eos et accusamus</li>
-            </ul>
-        </div>
-        <!--/col-md-3-->
     </div>
-    <!--/row-->
+</section>
 
-</div>
-<!--/container-->
-<!--=== End Content Part ===-->
+
+
+<!-- Testimonials -->
+<section class="dzsparallaxer auto-init height-is-based-on-content use-loading g-bg-cover g-bg-black-opacity-0_8--after">
+    <div class="divimage dzsparallaxer--target w-100" style="height: 140%; background: url(../../assets/img-temp/720x299/img1.jpg);"></div>
+    <div class="container g-z-index-1 g-py-150">
+        <!-- Testimonials -->
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="text-center g-z-index-1 text-uppercase">
+                    <blockquote class="g-color-white g-font-size-33 g-line-height-2 g-mb-20">
+                        Una empresa es
+                        <span class="g-color-primary g-font-weight-700">Digital</span> 
+                        porque lo son todos sus procesos y operaciones
+                    </blockquote>
+                    @*<h4 class="h6 g-color-white-opacity-0_6 g-mb-0">- Kathy Reyes -</h4>*@
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonials -->
+    </div>
+</section>
+<!-- End Testimonials -->
+
+<!-- Team Blocks -->
+<section class="container g-pt-100 g-pb-70">
+    <div class="row justify-content-center g-mb-60">
+        <div class="col-lg-8">
+            <!-- Heading -->
+            <div class="text-center">
+                <h2 class="h3 g-color-black text-uppercase mb-2">NUESTRO EQUIPO</h2>
+                <div class="d-inline-block g-width-35 g-height-2 g-bg-primary mb-2"></div>
+                <p class="mb-0">
+                    Contamos con un inigualable grupo de trabajo, que realiza sus labores con responsabilidad y compromiso, con alta orientación a resultados, altas dosis de innovación y acostumbrados al trabajo en equipo
+                </p>
+            </div>
+            <!-- End Heading -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+            <!-- Team Block -->
+            <div class="u-info-v6-1 u-shadow-v11 g-pos-rel g-brd-bottom g-brd-3 g-brd-gray-light-v4 g-brd-primary--hover rounded g-transition-0_3 g-transition--linear">
+                <!-- Figure -->
+                <figure class="u-block-hover">
+                    <!-- Figure Image -->
+                    <img class="w-100" src="../../assets/img-temp/400x450/img2.jpg" alt="Image Description">
+                    <!-- End Figure Image-->
+                </figure>
+                <!-- End Figure -->
+                <!-- Figure Info -->
+                <div class="g-bg-white g-pa-25">
+                    <div class="g-mb-15">
+                        <h4 class="h5 g-color-black g-mb-5">Jonathan Wolfan</h4>
+                        <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Chief Executive Officer</em>
+                    </div>
+                    <p class="g-color-gray-dark-v5 g-font-size-12">Con mas de 10 años de experiencia en el sector privado es su carta amiga para desarrollar sus ideas.</p>
+                </div>
+                <!-- End Figure Info-->
+            </div>
+            <!-- End Team Block -->
+        </div>
+
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+            <!-- Team Block -->
+            <div class="u-info-v6-1 u-shadow-v11 g-pos-rel g-brd-bottom g-brd-3 g-brd-gray-light-v4 g-brd-primary--hover rounded g-transition-0_3 g-transition--linear">
+                <!-- Figure -->
+                <figure class="u-block-hover">
+                    <!-- Figure Image -->
+                    <img class="w-100" src="../../assets/img-temp/400x450/img2.jpg" alt="Image Description">
+                    <!-- End Figure Image-->
+                </figure>
+                <!-- End Figure -->
+                <!-- Figure Info -->
+                <div class="g-bg-white g-pa-25">
+                    <div class="g-mb-15">
+                        <h4 class="h5 g-color-black g-mb-5">Elias Rodriguez</h4>
+                        <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Lead Designer</em>
+                    </div>
+                    <p class="g-color-gray-dark-v5 g-font-size-12">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                </div>
+                <!-- End Figure Info-->
+            </div>
+            <!-- End Team Block -->
+        </div>
+
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+            <!-- Team Block -->
+            <div class="u-info-v6-1 u-shadow-v11 g-pos-rel g-brd-bottom g-brd-3 g-brd-gray-light-v4 g-brd-primary--hover rounded g-transition-0_3 g-transition--linear">
+                <!-- Figure -->
+                <figure class="u-block-hover">
+                    <!-- Figure Image -->
+                    <img class="w-100" src="../../assets/img-temp/400x450/img2.jpg" alt="Image Description">
+                    <!-- End Figure Image-->
+                </figure>
+                <!-- End Figure -->
+                <!-- Figure Info -->
+                <div class="g-bg-white g-pa-25">
+                    <div class="g-mb-15">
+                        <h4 class="h5 g-color-black g-mb-5">Jorge Guerrero</h4>
+                        <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Lead Designer</em>
+                    </div>
+                    <p class="g-color-gray-dark-v5 g-font-size-12">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                </div>
+                <!-- End Figure Info-->
+            </div>
+            <!-- End Team Block -->
+        </div>
+
+        <div class="col-lg-3 col-sm-6 g-mb-30">
+            <!-- Team Block -->
+            <div class="u-info-v6-1 u-shadow-v11 g-pos-rel g-brd-bottom g-brd-3 g-brd-gray-light-v4 g-brd-primary--hover rounded g-transition-0_3 g-transition--linear">
+                <!-- Figure -->
+                <figure class="u-block-hover">
+                    <!-- Figure Image -->
+                    <img class="w-100" src="../../assets/img-temp/400x450/img2.jpg" alt="Image Description">
+                    <!-- End Figure Image-->
+                </figure>
+                <!-- End Figure -->
+                <!-- Figure Info -->
+                <div class="g-bg-white g-pa-25">
+                    <div class="g-mb-15">
+                        <h4 class="h5 g-color-black g-mb-5">Andres Beltran</h4>
+                        <em class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Lead Designer</em>
+                    </div>
+                    <p class="g-color-gray-dark-v5 g-font-size-12">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                </div>
+                <!-- End Figure Info-->
+            </div>
+            <!-- End Team Block -->
+        </div>
+    </div>
+</section>
+<!-- End Team Blocks -->
+
