@@ -58,7 +58,15 @@
 
         if(isset($_GET["ruta"])){
 
-            if($_GET["ruta"] == "inicio" || $_GET["ruta"] == "nosotros" || $_GET["ruta"] == "politicas" ||  $_GET["ruta"] == "mantenimiento" || $_GET["ruta"] == "conocenos") {
+            if($_GET["ruta"] == "inicio" || $_GET["ruta"] == "nosotros" || 
+            $_GET["ruta"] == "politicas" ||  
+            $_GET["ruta"] == "mantenimiento" ||
+            $_GET["ruta"] == "contactenos" || 
+            $_GET["ruta"] == "BigData" ||
+            $_GET["ruta"] == "softwareDevelopment" ||
+            $_GET["ruta"] == "BPO" ||
+            $_GET["ruta"] == "managedServices" || 
+            $_GET["ruta"] == "conocenos") {
       
               include "modulos/".$_GET["ruta"].".php";
       

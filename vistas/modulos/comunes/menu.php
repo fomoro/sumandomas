@@ -45,7 +45,7 @@
                             <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
                                 <!-- ManagedServices -->
                                 <li class="dropdown-item ">
-                                    <a class="nav-link" href="ManagedServices">Serviios Gestionados</a>
+                                    <a class="nav-link" href="managedServices">Serviios Gestionados</a>
                                 </li>
                                 <!-- End ManagedServices -->
 
@@ -63,7 +63,7 @@
 
                                 <!-- BigData -->
                                 <li class="dropdown-item ">
-                                    <a class="nav-link" href="SoftwareDevelopment">Desarrollo de Software</a>
+                                    <a class="nav-link" href="softwareDevelopment">Desarrollo de Software</a>
                                 </li>
                                 <!-- End BigData -->
 
@@ -73,12 +73,12 @@
 
                         <!-- Quienes Somos -->
                         <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                            <a href="AboutUs" class="nav-link g-py-7 g-px-0">Quienes Somos</a>
+                            <a href="conocenos" class="nav-link g-py-7 g-px-0">Quienes Somos</a>
                         </li>
                         <!-- End Quienes Somos -->
                         <!-- Contactenos -->
                         <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                            <a href="Contact" class="nav-link g-py-7 g-px-0">Contactenos</a>
+                            <a href="contactenos" class="nav-link g-py-7 g-px-0">Contactenos</a>
                         </li>
                         <!-- End Contactenos -->
                     </ul>
